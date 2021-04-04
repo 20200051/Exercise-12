@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing:border-box;
+}
+
+.a {
+  background-color:violet;
+    padding: 30px;px;
+  float:left;
+  width:50%;
+  text-align: center;
+}
+
+.b {
+  background-colo:green;
+  padding:30px;
+  float:left;
+  width:50%;
+  text-align: center;
+}
+
+.c {
+  background-color: black;
+  padding:30px;
+  float:left;
+  width:100%;
+  text-align: center;
+}
+
+.d {
+  background-color:maroon;
+  padding:30px;
+  float:left;
+  width:33.3333333333%;
+  text-align: center;
+}
+
+.e {
+  background-color: orange;
+  padding:30px;
+  float:left;
+  width:33.3333333333%;
+  text-align: center;
+}
+
+.f {
+  background-color:red;
+  padding:30px;
+  float:left;
+  width:33.3333333333%;
+  text-align: center;
+}
+
+.g {
+  background-color: blue;
+  padding:30px;
+  float:left;
+  width:25%;
+  text-align: center;
+}
+
+.h {
+  background-color:pink;
+  padding:30px;
+  float:left;
+  width:25%;
+  text-align: center;
+}
+
+.i {
+  background-color:silver;
+  padding: 30px;
+  float:left;
+  width:25%;
+  text-align: center;
+}
+.j {
+  background-color: fuchsia;
+  padding: 30px;px;
+  float:left;
+  width:25%;
+  text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+  .a, .b, .c {
+    width:100%; 
+  }
+  
+@media screen and (max-width:768px) {
+  .d, .e, .f {
+    width:100%; 
+  }
+  
+@media screen and (max-width:320px) {
+  .g, .h, .i, .j {
+    width:100%; 
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="a">
+  <p>Header</p>
+  
+</div>
+
+<div class="b">
+  <p>Navigation</p>
+</div>
+
+<div class="c">
+  <p>Content</p>
+</div>
+
+<div class="d">
+  <p>About</p>
+</div>
+
+<div class="e">
+  <p>More</p>
+</div>
+
+<div class="f">
+  <p>Summary</p>
+</div>
+<div class="g">
+  <p>Related</p>
+</div>
+
+<div class="h">
+  <p>Content</p>
+</div>
+
+<div class="i">
+  <p>Summary</p>
+</div>
+
+<div class="j">
+  <p>References</p>
+</div>
+</body>
+</html>
